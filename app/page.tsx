@@ -1,19 +1,42 @@
-
-import styles from './page.module.css'
+"use client"
+import UseFetch from './Hooks/UseFetch'
 import Link from 'next/link'
-export default function Home() {
-  return (
-    <main className='container'>
+import Image from 'next/image'
 
-      <div className='dashbourd-div '>
-     <h2 className='text-3xl  font-bold  '>dashbourd</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, magnam rem quisquam aliquam illo eum culpa vel, expedita vitae eius tempore iure modi eligendi quia totam, voluptatibus consectetur suscipit perspiciatis!</p>
-      <Link className="view-tickts-btn" href='/about'><button >View Tickets</button></Link>
-    </div>
-    <h4>Company Updates</h4>
-    <div className=" parag"><h5>new member of the web devteam...</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe fuga asperiores architecto mollitia autem cupiditate repellat voluptatum.</p></div>
-    <div className="parag"><h5>new member of the web devteam...</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe fuga asperiores architecto mollitia autem cupiditate repellat voluptatum.</p></div>
-    <div className="parag"><h5>new member of the web devteam...</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe fuga asperiores architecto mollitia autem cupiditate repellat voluptatum.</p></div>
-    </main>
+export default function Home() {
+
+ const {data,setData ,error ,loading}:any =UseFetch("http://localhost:8000/data")
+ type itemType={id:number,title:string,body:string,author:string,src:string};
+  
+ return (
+  <>
+       {data && <h1 className="font-bold m-5  text-xl text-purple-600">All Published...</h1>}
+
+    <main className='w-full flex justify-center  flex-wrap '>
+     {data && data.map((item:itemType)=>{
+       return(
+          <div key={item.id} className=" card shadow-md shadow-gray-700 flex flex-col justify-start mx-3 h-96 my-9 rounded-3xl bg-purple-500 p-3">
+          
+            <div className='flex justify-center items-start w-full h-32'>
+      
+             <Image width={300} height={150} alt='publisher' src={item.src}  quality={100}  className='rounded-xl shadow-md  shadow-black m-3'/>
+              
+              <div className='flex flex-col w-full h-full items-center justify-evenly '> 
+                <h1 className='text-xl  '>{item.title}</h1>
+                <h2 className='font-bold text-xl '>{item.author}</h2>
+              </div>
+          
+            </div>
+            
+            <p className=' mt-20'>{item.body}</p>
+
+          </div>
+        
+       ) 
+     })}
+    {loading && <h1 className=' font-bold m-9 text-purple-800'>Loading...</h1>}
+    {error && <h1 className='text-red m-9 font-bold>'>{error}</h1>}
+     </main>
+     </>
   )
 }

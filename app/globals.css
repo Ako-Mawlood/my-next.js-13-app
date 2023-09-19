@@ -8,3 +8,29 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    color:white;
+    background-color:whitesmoke
+}
+.card{
+    width:30%;
+    height: 410px;
+}
+.add{
+    width:35%;
+    height:500px;
+}
+.hhh{
+    width:100%;
+    
+}
+label{
+  font-weight: bold;
+  padding-bottom:2px;
+}
+
+img{
+    width: 205px;
+    height: 150px;
+ 
+}

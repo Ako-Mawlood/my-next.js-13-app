@@ -1,4 +1,5 @@
 "use client"
+import Search from './components/Search'
 import UseFetch from './Hooks/UseFetch'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -9,9 +10,8 @@ export default function Home() {
  type itemType={id:number,title:string,body:string,author:string,src:string};
   
  return (
-  <>
+  <>    <Search data={data} setData={setData} />
        {data && <h1 className="font-bold m-5  text-xl text-purple-600">All Published...</h1>}
-
     <main className='w-full flex justify-center  flex-wrap '>
      {data && data.map((item:itemType)=>{
        return(

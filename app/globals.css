@@ -34,6 +34,12 @@ img{
     height: 150px;
  
 }
+.h1{
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1rem;
+    width:90%;
+    font-weight:bold;
+}
 .butter{
     width: 25%;
     height: 36%;

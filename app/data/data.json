@@ -106,18 +106,11 @@
       "src": "https://picsum.photos/id/15/200/150"
     },
     {
-      "title": "test1",
-      "body": "test1",
-      "author": "test1",
-      "src": "https://picsum.photos/id/204/200/150",
+      "title": "hello",
+      "body": "hello \n",
+      "author": "helo",
+      "src": "https://picsum.photos/id/782/200/150",
       "id": 16
-    },
-    {
-      "title": "test2",
-      "body": "test2\n",
-      "author": "test2",
-      "src": "https://picsum.photos/id/507/200/150",
-      "id": 17
     }
   ]
 }

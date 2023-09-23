@@ -5,7 +5,7 @@ import { useState } from 'react'
 import {useRouter} from 'next/navigation'
 import { usePathname } from 'next/navigation'
 import texture from "../public/texture.png"
-import UseFetch from './Hooks/UseFetch'
+import UseFetch from './Hooks/useFetch'
 const Home = () => {
 
      const router = useRouter()

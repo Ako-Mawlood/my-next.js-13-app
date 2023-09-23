@@ -8,6 +8,7 @@ type itemType={
 }
 const Open = (props:any) => {
  const {data,isOpen,setIsOpen,selectedBlog,setSelectedBlog,id}=props
+ 
      function handleDetailClick(){
         const selectedItem=data.find((item:itemType)=>{
         
@@ -19,7 +20,7 @@ const Open = (props:any) => {
    
   return (
     <>
-  <button onClick={handleDetailClick} className="px-4 py-2 bg-slate-50 w-2/4 text-xl text-purple-500 rounded-xl ">Detail</button>
+     <button onClick={handleDetailClick} className="px-4 py-2 bg-slate-50 w-2/4 text-xl text-purple-500 rounded-xl ">Detail</button>
     </>
   )
 

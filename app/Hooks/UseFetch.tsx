@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-const UseFetch = (url:string) => {
+const useFetch = (url:string) => {
    type itemType={
       id:number;
       title:string;
@@ -38,4 +38,4 @@ const UseFetch = (url:string) => {
 
   return {data,setData,error,loading}
 }
-export default UseFetch
+export default useFetch

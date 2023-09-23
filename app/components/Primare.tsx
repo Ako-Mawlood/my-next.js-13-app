@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image'
-import UseFetch from '../Hooks/UseFetch'
+import UseFetch from '../Hooks/useFetch'
 const Primare = () => {
   const {data:primare,error,loading}=UseFetch('http://localhost:9000/data');
   type itemType={

@@ -23,25 +23,28 @@ const Blogs = () => {
     const viewElement = data.find((item: ItemType) => item.id === id);
     setSelectedItem(viewElement);
     setIsPopupOpen(true);
+
+
   }
+  
 
   return (
     <>
       {error && <h1 className="m-96">{error}</h1>}
 
       {loading && (
-        <h1 className="absolute top-24 mr-20 left-2/4">Loading...</h1>
+        <h1 className="absolute top-24 left-2/4 transform -translate-x-2/4">Loading...</h1>
       )}
 
       {isPopupOpen && selectedItem && (
-        <PopUp 
+        <PopUp  
+          isPopupOpen={isPopupOpen}
           data={data}
           setIsPopupOpen={setIsPopupOpen}
           setSelectedItem={setSelectedItem}
           selectedItem={selectedItem}
         />
       )}
-
 
       <div className="flex w-full justify-between mt-4 flex-wrap">
         {data &&
@@ -52,7 +55,7 @@ const Blogs = () => {
                 onClick={() => open(item.id)}
                 className="card ani  my-3 cursor-pointer rounded-t-2xl rounded-b-md  flex flex-col justify-between items-center"
               >  
-              <div className="   date  flex flex-col justify-start items-center">
+              <div className="date flex flex-col justify-start items-center">
                 <Image
                   className="w-full i font-bold rounded-t-2xl"
                   width={200}
@@ -62,7 +65,7 @@ const Blogs = () => {
                   quality={100}
                 />
                 <div className="flex h-28 w-full items-center">
-                  <h1 className="text-slate-200 font-bold ml-2 w-50 text-xl">
+                  <h1 className="text-slate-200 font-bold ml-2 w-1/2 text-xl"> 
                     {item.title}
                   </h1>
                   <div className="flex flex-col px-2 w-1/4 justify-center items-center">
@@ -71,7 +74,9 @@ const Blogs = () => {
                   </div>
                 </div>
                 </div>
-                <button className=' w-full  font-bold h-24 text-xl rounded-b-md  text-black bg-slate-300 border-black ' onClick={()=>(item.id)}>Read</button>
+                <button className='w-full font-bold h-24 text-xl rounded-b-md text-black bg-slate-300 border-black ' onClick={() => open(item.id)}> 
+                  Read
+                </button>
               </div>
             );
           })}

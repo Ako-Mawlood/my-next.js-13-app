@@ -8,20 +8,21 @@ type itemType={
     src:string;
     date:string}
     type propType={
+        isPopupOpen:boolean;
         data:any;
         setIsPopupOpen:any; 
         setSelectedItem:any;
         selectedItem:null|itemType;
     }
 const PopUp = (props:propType) => {
-    const {data,setIsPopupOpen,setSelectedItem,selectedItem}=props
+    const {isPopupOpen,data,setIsPopupOpen,setSelectedItem,selectedItem}=props
      console.log(selectedItem)
     
   return (
    <> 
    
    {selectedItem &&
-    <div  className="popup bg-slate-600 absolute top-1/4 left-1/4">
+    <div  className={'popup blur-none bg-slate-600'}>
         <Image src={selectedItem.src} width={400} height={500} alt="iamge" quality={100}/>
         <h1>{selectedItem.title}</h1>
         <h1>{selectedItem.date}</h1>

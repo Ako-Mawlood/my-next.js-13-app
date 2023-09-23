@@ -8,6 +8,21 @@ const nextConfig = {
        port:'',
        pathname:'/id/**'
 
+      } ,
+       {
+       protocol:'https',
+       hostname:'images.pexels.com',
+       port:'',
+       pathname:'/photos/**'
+
+      }
+      ,
+       {
+       protocol:'https',
+       hostname:'img.freepik.com',
+       port:'',
+       pathname:'/free-vector/**'
+
       }
     ]
   }

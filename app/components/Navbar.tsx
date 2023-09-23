@@ -1,14 +1,27 @@
-import Link from 'next/link'
+"use client"
+import Link from 'next/link';
+import {useState} from 'react'
+import { usePathname } from 'next/navigation'
 const Navbar = () => {
+   const pathname=usePathname()
   return (
-    <div className='navbar  flex w-full justify-end shadow-md shadow-purple-400 items-center h-16 text-3xl     '> 
-        <h2 className='text-purple-600 ml-4 mr-auto'>Shaping Opinios Online</h2>
-        
-        <Link className='ml-4 text-black'   href="/">Home</Link>
-        <Link className='ml-4 text-black'  href='/about'>About</Link>
-        <Link className='mx-4  text-purple-600'  href='/add'>Add</Link>
-    </div>
-  )
-}
+    <nav className=' font-Montserrat text-lg flex justify-between items-center text-center w-4/12 h-16 absolute top-0 right-24'>
+      <Link className={pathname==="/"?"active-link":""} href="/">Home</Link>
+      <Link className={pathname==="/opinions"?"active-link":""} href='/opinions'>Opinions</Link>
+      <Link className={pathname==="/add"?"active-link":""} href='/add'>Add</Link>
+      <Link className={pathname==="/contact"?"active-link":""}href='/Contact'>Contact</Link>
+      {pathname === "/opinions" && 
+     <div className='p-2 rounded-full svg  text-center'>
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+          <path d="M20.87 19.29l-4.88-4.88c1.02-1.27 1.64-2.88 1.64-4.61 0-4.24-3.44-7.68-7.68-7.68-4.24 0-7.68 3.44-7.68 7.68s3.44 7.68 7.68 7.68c1.73 0 3.34-0.62 4.61-1.64l4.88 4.88c0.39 0.39 1.02 0.39 1.41 0s0.39-1.02 0-1.41zM9.68 16.68c-3.31 0-6-2.69-6-6s2.69-6 6-6c3.31 0-6 2.69-6 6s-2.69 6-6 6z" />
+        </svg>
+      </div>
+     }
+      
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
+
+

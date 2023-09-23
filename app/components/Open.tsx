@@ -10,6 +10,7 @@ const Open = (props:any) => {
  const {data,isOpen,setIsOpen,selectedBlog,setSelectedBlog,id}=props
      function handleDetailClick(){
         const selectedItem=data.find((item:itemType)=>{
+        
       return item.id===id
      })
      setIsOpen(true)

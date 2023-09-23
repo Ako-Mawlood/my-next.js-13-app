@@ -1,5 +1,4 @@
 "use client"
-import img from "public/pngwing.com.png"
 import Image from 'next/image'
 import { useState} from "react"
 import { useRouter } from 'next/navigation';
@@ -77,7 +76,6 @@ const Add = () => {
       </form>
 
     </div>
-    <Image width={700} height={550} alt='photo' src={img}  quality={100}  className=' butter'/>
    
  </> 
  )

@@ -1,11 +1,10 @@
-import {useState} from "react"
- 
 
-const Search = () => {
-  
+
+const Search = (props:{isSearchOn:boolean}) => {
+  const isSearchOn =props.isSearchOn
  
     return (
-    <div></div>
+    <input className={isSearchOn ?"w-50 p-2 ":"w-0"}  type="search" />
   )
 }
 

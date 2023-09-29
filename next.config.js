@@ -23,7 +23,14 @@ const nextConfig = {
        port:'',
        pathname:'/free-vector/**'
 
-      }
+      }, 
+         {
+        protocol:'https',
+        hostname:'*',
+        port:'',
+        pathname:'/**'
+ 
+       } 
     ]
   }
 

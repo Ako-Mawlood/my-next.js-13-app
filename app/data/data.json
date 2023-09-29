@@ -1,12 +1,11 @@
 {
   "data": [
-
     {
       "id": 1,
       "title": "Exploring Mars: The Red Planet",
       "body": "Mars has always fascinated humans. It's the next frontier in space exploration. We dream of sending humans to Mars to establish colonies and unlock the secrets of this barren world. However, the journey to Mars is fraught with challenges.",
       "author": "Katherine Lee",
-      "src": "https://picsum.photos/id/188/230/170",
+      "src": "https://picsum.photos/id/188/500/550",
       "date": "July 19, 2023"
     },
     {
@@ -14,7 +13,7 @@
       "title": "The Future of Virtual Reality",
       "body": "Virtual reality is poised to change the way we experience entertainment, education, and even work. It offers immersive experiences that can transport us to new worlds. However, VR also raises concerns about privacy and addiction.",
       "author": "Liam Johnson",
-      "src": "https://picsum.photos/id/23/500/200",
+      "src": "https://picsum.photos/id/23/500/550",
       "date": "September 28, 2023"
     },
     {
@@ -22,7 +21,7 @@
       "title": "The Ethics of Artificial Intelligence",
       "body": "AI systems are becoming increasingly autonomous and capable of making important decisions. This raises questions about responsibility, accountability, and the potential for AI to harm humanity. Ethical guidelines are essential.",
       "author": "Mia Williams",
-      "src": "https://picsum.photos/id/43/500/200",
+      "src": "https://picsum.photos/id/43/500/550",
       "date": "November 5, 2023"
     },
     {
@@ -30,7 +29,7 @@
       "title": "The Future of Work",
       "body": "The nature of work is changing rapidly. Automation, remote work, and the gig economy are reshaping the job market. Preparing for the future of work requires adaptability and a focus on lifelong learning.",
       "author": "Nathan Davis",
-      "src": "https://picsum.photos/id/316/500/200",
+      "src": "https://picsum.photos/id/317/500/550",
       "date": "December 12, 2023"
     },
     {
@@ -38,7 +37,7 @@
       "title": "The Impact of Social Media",
       "body": "Social media has transformed communication and how we interact. It connects people worldwide but also raises concerns about privacy, misinformation, and addiction. Finding a healthy balance in the digital age is crucial.",
       "author": "Olivia Smith",
-      "src": "https://picsum.photos/id/145/500/200",
+      "src": "https://picsum.photos/id/145/500/550",
       "date": "February 22, 2023"
     },
     {
@@ -46,7 +45,7 @@
       "title": "The Future of Healthcare Technology",
       "body": "Advancements in healthcare technology are revolutionizing patient care. From telemedicine to wearable health devices, technology is changing how we monitor and manage our health. However, data security and accessibility remain challenges.",
       "author": "David Brown",
-      "src": "https://picsum.photos/id/134/500/200",
+      "src": "https://picsum.photos/id/134/500/550",
       "date": "April 9, 2023"
     },
     {
@@ -54,7 +53,7 @@
       "title": "The Exploration of Deep Space",
       "body": "Humanity's quest to explore deep space continues. We aim to reach distant galaxies, study black holes, and search for signs of extraterrestrial life. The challenges of deep space exploration are immense but inspire us to reach for the stars.",
       "author": "Sophia Martinez",
-      "src": "https://picsum.photos/id/179/500/200",
+      "src": "https://picsum.photos/id/179/500/550",
       "date": "June 7, 2023"
     },
     {
@@ -62,7 +61,7 @@
       "title": "The Future of Sustainable Energy",
       "body": "Sustainable energy sources like solar and wind power are crucial for reducing our carbon footprint. They provide clean, renewable energy but require investment in infrastructure and energy storage solutions to achieve widespread adoption.",
       "author": "Ethan Johnson",
-      "src": "https://picsum.photos/id/185/500/200",
+      "src": "https://picsum.photos/id/185/500/550",
       "date": "August 14, 2023"
     },
     {
@@ -70,7 +69,7 @@
       "title": "The Role of Artificial Intelligence in Education",
       "body": "AI is transforming education by personalizing learning experiences, automating administrative tasks, and providing data-driven insights. However, integrating AI into education systems requires addressing privacy and equity concerns.",
       "author": "Ava Smith",
-      "src": "https://picsum.photos/id/57/500/200",
+      "src": "https://picsum.photos/id/57/500/550",
       "date": "October 30, 2023"
     },
     {
@@ -78,7 +77,7 @@
       "title": "The Future of Space Travel",
       "body": "Space travel is on the cusp of a new era. Commercial spaceflight, lunar missions, and plans for Mars exploration are shaping the future of space travel. However, safety and sustainability are paramount concerns in this frontier.",
       "author": "James Wilson",
-      "src": "https://picsum.photos/id/20/500/200",
+      "src": "https://picsum.photos/id/20/500/550",
       "date": "December 5, 2023"
     },
     {
@@ -86,7 +85,7 @@
       "title": "The Impact of Biotechnology on Medicine",
       "body": "Biotechnology is advancing medicine by enabling precision treatments, gene therapies, and the development of new pharmaceuticals. However, ethical and regulatory challenges must be addressed as we harness the power of biotechnology.",
       "author": "Emily Davis",
-      "src": "https://picsum.photos/id/21/500/200",
+      "src": "https://picsum.photos/id/21/500/550",
       "date": "February 11, 2023"
     },
     {
@@ -94,7 +93,7 @@
       "title": "The Future of Sustainable Transportation",
       "body": "Sustainable transportation options like electric vehicles and public transit are vital for reducing greenhouse gas emissions. Governments and industries are investing in eco-friendly transportation solutions to combat climate change.",
       "author": "Daniel Miller",
-      "src": "https://picsum.photos/id/22/500/200",
+      "src": "https://picsum.photos/id/22/500/550",
       "date": "April 22, 2023"
     },
     {
@@ -102,7 +101,7 @@
       "title": "The Evolution of Artificial Intelligence",
       "body": "AI continues to evolve rapidly, with advancements in natural language processing, computer vision, and autonomous systems. However, ethical concerns around AI bias, privacy, and accountability must be addressed.",
       "author": "Oliver Brown",
-      "src": "https://picsum.photos/id/73/500/200",
+      "src": "https://picsum.photos/id/73/500/550",
       "date": "June 18, 2023"
     },
     {
@@ -110,7 +109,7 @@
       "title": "The Future of Digital Entertainment",
       "body": "Digital entertainment platforms are reshaping how we consume content, from streaming services to virtual reality experiences. The entertainment industry is adapting to new technologies and consumer preferences.",
       "author": "Sophie Johnson",
-      "src": "https://picsum.photos/id/24/500/200",
+      "src": "https://picsum.photos/id/24/500/550",
       "date": "August 8, 2023"
     },
     {
@@ -118,7 +117,7 @@
       "title": "The Impact of Climate Action",
       "body": "Climate action is essential to mitigate the effects of global warming. Policies, renewable energy adoption, and sustainable practices are critical steps. However, addressing climate change requires international cooperation.",
       "author": "Noah Davis",
-      "src": "https://picsum.photos/id/25/500/200",
+      "src": "https://picsum.photos/id/25/500/550",
       "date": "October 2, 2023"
     },
     {
@@ -126,7 +125,7 @@
       "title": "The Future of Genetic Research",
       "body": "Genetic research is unlocking the secrets of our DNA, leading to breakthroughs in disease prevention and personalized medicine. However, ethical dilemmas surrounding gene editing and privacy persist.",
       "author": "Sophia Miller",
-      "src": "https://picsum.photos/id/26/500/200",
+      "src": "https://picsum.photos/id/26/500/550",
       "date": "November 29, 2023"
     },
     {
@@ -134,7 +133,7 @@
       "title": "The Future of Sustainable Cities",
       "body": "Sustainable urban planning and green infrastructure are essential for building resilient, eco-friendly cities. Balancing urban growth with environmental conservation is a key challenge for the cities of the future.",
       "author": "Liam Smith",
-      "src": "https://picsum.photos/id/27/500/200",
+      "src": "https://picsum.photos/id/27/500/550",
       "date": "January 15, 2023"
     },
     {
@@ -142,7 +141,7 @@
       "title": "The Impact of Cybersecurity Threats",
       "body": "Cybersecurity threats pose risks to individuals, businesses, and governments. Strengthening cybersecurity measures, data protection, and raising awareness are critical in an increasingly digital world.",
       "author": "Ella Johnson",
-      "src": "https://picsum.photos/id/28/500/200",
+      "src": "https://picsum.photos/id/28/500/550",
       "date": "March 26, 2023"
     },
     {
@@ -150,7 +149,7 @@
       "title": "The Future of Artificial Intelligence in Healthcare",
       "body": "AI applications in healthcare include disease diagnosis, drug discovery, and personalized treatment plans. However, ensuring the accuracy and ethical use of AI in healthcare remains a priority.",
       "author": "Aiden Smith",
-      "src": "https://picsum.photos/id/29/500/200",
+      "src": "https://picsum.photos/id/29/500/550",
       "date": "May 10, 2023"
     },
     {
@@ -158,7 +157,7 @@
       "title": "The Future of Space Exploration",
       "body": "Space exploration continues to captivate our imaginations. The quest to explore distant planets, asteroids, and even neighboring star systems drives humanity to push the boundaries of science and technology.",
       "author": "Grace Wilson",
-      "src": "https://picsum.photos/id/30/500/200",
+      "src": "https://picsum.photos/id/30/500/550",
       "date": "July 23, 2023"
     },
     {
@@ -166,7 +165,7 @@
       "title": "The Role of Artificial Intelligence in Finance",
       "body": "AI is transforming the finance industry with algorithms for trading, risk assessment, and fraud detection. However, ethical considerations and data security are paramount in financial AI applications.",
       "author": "Jacob Davis",
-      "src": "https://picsum.photos/id/31/500/200",
+      "src": "https://picsum.photos/id/31/500/550",
       "date": "September 17, 2023"
     },
     {
@@ -174,7 +173,7 @@
       "title": "The Future of Sustainable Transportation",
       "body": "Sustainable transportation options like electric vehicles and public transit are vital for reducing greenhouse gas emissions. Governments and industries are investing in eco-friendly transportation solutions to combat climate change.",
       "author": "Madison Miller",
-      "src": "https://picsum.photos/id/32/500/200",
+      "src": "https://picsum.photos/id/32/500/550",
       "date": "November 11, 2023"
     },
     {
@@ -182,7 +181,7 @@
       "title": "The Future of Space Exploration",
       "body": "Space exploration continues to captivate our imaginations. The quest to explore distant planets, asteroids, and even neighboring star systems drives humanity to push the boundaries of science and technology.",
       "author": "William Johnson",
-      "src": "https://picsum.photos/id/33/500/200",
+      "src": "https://picsum.photos/id/33/500/550",
       "date": "December 20, 2023"
     },
     {
@@ -190,7 +189,7 @@
       "title": "The Impact of Biotechnology on Medicine",
       "body": "Biotechnology is advancing medicine by enabling precision treatments, gene therapies, and the development of new pharmaceuticals. However, ethical and regulatory challenges must be addressed as we harness the power of biotechnology.",
       "author": "Emma Brown",
-      "src": "https://picsum.photos/id/34/500/200",
+      "src": "https://picsum.photos/id/34/500/550",
       "date": "February 8, 2023"
     },
     {
@@ -198,7 +197,7 @@
       "title": "The Future of Sustainable Energy",
       "body": "Sustainable energy sources like solar and wind power are crucial for reducing our carbon footprint. They provide clean, renewable energy but require investment in infrastructure and energy storage solutions to achieve widespread adoption.",
       "author": "Lucas Davis",
-      "src": "https://picsum.photos/id/35/500/200",
+      "src": "https://picsum.photos/id/35/500/550",
       "date": "April 14, 2023"
     },
     {
@@ -206,7 +205,7 @@
       "title": "The Ethics of Artificial Intelligence",
       "body": "AI systems are becoming increasingly autonomous and capable of making important decisions. This raises questions about responsibility, accountability, and the potential for AI to harm humanity. Ethical guidelines are essential.",
       "author": "Lily Smith",
-      "src": "https://picsum.photos/id/36/500/200",
+      "src": "https://picsum.photos/id/36/500/550",
       "date": "June 27, 2023"
     },
     {
@@ -214,7 +213,7 @@
       "title": "The Future of Digital Entertainment",
       "body": "Digital entertainment platforms are reshaping how we consume content, from streaming services to virtual reality experiences. The entertainment industry is adapting to new technologies and consumer preferences.",
       "author": "Ethan Davis",
-      "src": "https://picsum.photos/id/37/500/200",
+      "src": "https://picsum.photos/id/37/500/550",
       "date": "August 3, 2023"
     }
   ]

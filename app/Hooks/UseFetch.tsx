@@ -1,15 +1,9 @@
 "use client"
-
 import { useEffect, useState } from "react"
+import { itemType } from '../Hooks/itemType'
 
 const useFetch = (url:string) => {
-   type itemType={
-      id:number;
-      title:string;
-      body:string;
-      author:string;
-      src:string;
-      date:string}
+   
        
  const [data ,setData]:any=useState<null|itemType>(null)
  const [loading ,setLoading]=useState<boolean>(true)

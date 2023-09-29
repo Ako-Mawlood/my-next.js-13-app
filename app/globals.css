@@ -14,12 +14,12 @@
 }
 
 .color{
-    background-color:#27344b;
+    background-color:#E8308C;
 }
 .card{
     width: 31%;
     height:350px;
-    background-color: #050116;
+    
 }
 .up:hover{ 
     transform:translateY(-10px);
@@ -29,10 +29,10 @@
     position: fixed;
     top:50%;
     left:50%;
-    width:120vh;
-    height: 100vh;
-    transform:translate(-50%,-50%)
-
+    width:125vh;
+    height: 80vh;
+    transform:translate(-50%,-50%);
+    z-index:100px ;
 
   }
 
@@ -57,23 +57,40 @@ p{
     box-sizing: border-box;
 }
 body{
-    color:white;
-    background-color:#000000;
+    background-color:black;
+
     font-family: 'Prompt', sans-serif;
+}
+::selection{
+    background-color:#E8308C;
+    color:white;
 }
 nav{
   color:rgb(201, 191, 191);
   letter-spacing: 0.5px;
   font-family: 'Prompt', sans-serif;
+
+}
+input,textarea:focus{
+    outline-color:#E8308C;
+} 
+.loading{
+    position:absolute;
+    left:50%;
+    bottom: -19%;
+
 }
 
-.add{
-    width:35%;
-    height:600px;
-}
-.hhh{
-    width:100%;
-    
+.blured{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:200vh;
+    height:100vh;
+    background-color: black;
+    opacity:0.8;
+
 }
 .home-btn{
     letter-spacing: 3px;
@@ -83,6 +100,7 @@ nav{
 label{
   font-weight: bold;
   padding-bottom:9px;
+  
 }
 
 .h1{
@@ -90,14 +108,7 @@ label{
     width:90%;
     font-weight:bold;
 }
-.butter{
-    width: 25%;
-    height: 36%;
-    position:absolute;
-    top:-40px; 
-    left:55%;
-    rotate:25deg;
-}
+
 .ani{
  animation-name: animation;
  animation-duration: 0.5s;
